@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['anger', 'fear', 'happy', 'neutral', 'sad']
+
+roboflow:
+  workspace: fisrt-one
+  project: facial-expression-gtvqk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fisrt-one/facial-expression-gtvqk/dataset/1

@@ -1,5 +1,7 @@
-# Facial Expression Recognition for Perfume Recommendation
-### Comparative Performance Analysis of YOLOv8 and YOLOv10
+> 🏆 **2024 한국정보기술학회 추계종합학술대회 우수논문상 수상**
+
+# 표정 인식 기반 향수 추천 AI
+### YoLoV8과 YoLoV10을 사용한 사용자 표정 분석 알고리즘 성능비교
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch)

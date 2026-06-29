@@ -95,21 +95,8 @@ YOLOv10은 NMS(Non-Maximum Suppression)를 제거한 **One-to-One 헤드(one2one
 
 ## Project Structure
 
-```
-perfumeYolov10/
-├── __init__.py       # 모듈 export (YOLOv10, Predictor, Validator)
-├── model.py          # YOLOv10 메인 모델 클래스 (HuggingFace Hub 통합)
-├── train.py          # 커스텀 Trainer (YOLOv10DetectionTrainer)
-├── val.py            # 커스텀 Validator (one2one postprocess)
-├── predict.py        # 커스텀 Predictor (v10postprocess)
-├── card.py           # HuggingFace Model Card 템플릿
-├── yolov10n.pt       # YOLOv10n 사전 학습 가중치
-└── dataset/
-    ├── data.yaml     # 데이터셋 설정 (5 classes)
-    ├── train/        # 학습 이미지
-    ├── valid/        # 검증 이미지
-    └── test/         # 테스트 이미지
-```
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9d4015b6-841f-4a9a-babd-e6cda08b4c23" />
+
 
 ---
 
